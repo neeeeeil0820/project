@@ -1,0 +1,84 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.btn-123 {
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  bottom: 23px;
+  right: 28px;
+  margin-top: 5px;
+  margin-left: 115px;
+  width: 153px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+}
+
+
+/* Add styles to the form container */
+.form-container {
+    border-radius: 5px;
+    border: solid #31708E;
+    margin-left: 34px;
+    margin-top: 155px;
+    max-width: 412px;
+    height: 225px;
+    padding: 10px;
+    background-color: rgba(26,188,156,0.3);
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border-radius: 25px;
+  border: solid;
+  cursor: pointer;
+  height: 12%;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+/*.poptitle {
+    color: #eee;
+    float: left;
+    font-size: 22px;
+    width: 100%;
+    text-align: inherit;
+    position: relative;
+    display: block;
+    padding-left: 24px;
+    text-decoration: none;
+    margin-top: 67px;
+}
+
+.popdetails {
+  border-radius: 25px;
+    color: black;
+    background: white;
+    font-size: 15px;
+    width: 95%;
+    margin-left: 11px;
+    padding: 6px;
+}*/
+  
